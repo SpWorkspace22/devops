@@ -19,5 +19,5 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Read File
-              run: cat Readme.ms
+              run: cat Readme.md
     
