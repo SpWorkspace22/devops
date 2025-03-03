@@ -10,7 +10,9 @@ jobs:
               uses: actions/checkout@v4
 
             - name: Install cowsay programme
-              run: sudo apt-get install cowsay -y
+              run: |
+                    echo "Current user is: $(whoami)"
+                    sudo apt-get install cowsay -y
               env:
                    USER: github-runner
 
