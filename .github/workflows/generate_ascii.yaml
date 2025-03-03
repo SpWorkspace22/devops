@@ -12,8 +12,7 @@ jobs:
             - name: Install cowsay programme
               run: |
                     sudo -u github-runner whoami
-                    echo "Current user is: $(whoami)"
-                    sudo -u github-runner apt-get install cowsay -y
+                    sudo -u github-runner sudo apt-get install cowsay -y
               env:
                    USER: github-runner
 
