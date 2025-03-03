@@ -4,7 +4,7 @@ on: push
 
 jobs:
     first_job:
-        runs-on: [self-hosted, Linu, X64]
+        runs-on: [self-hosted, Linux, X64]
         steps:
             - name: Checkout Repo
               uses: actions/checkout@v4
