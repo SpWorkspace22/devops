@@ -4,7 +4,7 @@ on: push
 
 jobs:
     first_job:
-        runs-on: sonu-HP-Laptop-15-da0xxx
+        runs-on: self-hosted`
         steps:
             - name: Checkout Repo
               uses: actions/checkout@v4
